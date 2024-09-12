@@ -1,11 +1,13 @@
-* {
+
+body {
+    background-color: rgb(127, 163, 151);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 10px 20px;
 }
+
 p {
     color: #ece8eb;
     font-size: 20px;
-    line-height: 50px;
+    line-height: 40px;
     text-align: justify;
 }
 
@@ -15,7 +17,7 @@ p {
 
 h1 {
     color : rgb(37, 52, 50);
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
 }
 
@@ -29,27 +31,6 @@ h3 {
     color: rgb(37, 52, 50);
     font-size: 30px;
     text-align: left;
-    margin-bottom: -22px;
-}
-
-.colorAzul {
-    color: #940e5a;
-}
-
-#especial {
-    color: palevioletred;
-    font-size: 40px;
-}
-
-body {
-    background-color: rgb(127, 163, 151);
-}
-
-#Imagen1 {
-    width: 620px;
-    height: 400px;
-    margin-left: 400px;
-    border-radius: 25px;
 }
 
 /*---------------------SLIDER-----------------------------*/
@@ -74,7 +55,7 @@ body {
 } 
 
 #slider-arrow { 
-    width: 90%;
+    width: 91%;
     position: absolute;
     display: flex;
     justify-content: space-between;
