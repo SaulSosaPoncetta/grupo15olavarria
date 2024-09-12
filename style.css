@@ -1,35 +1,53 @@
-/* Selector de Tipo */
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+}
 p {
     color: #ece8eb;
     font-size: 20px;
+    line-height: 50px;
+    text-align: justify;
+}
+
+#parrafo1 {
+    text-align: center;
 }
 
 h1 {
-    color : rgb(85, 124, 180);
-    font-size: 40px
+    color : rgb(37, 52, 50);
+    font-size: 40px;
+    text-align: center;
 }
 
 h2 {
-    color: rgb(97, 116, 213);
+    color: rgb(37, 52, 50);
     font-size: 30px;
+    text-align: center;
 }
 
 h3 {
-    color: rgb(65, 115, 190);
-    font-size: 20px;
+    color: rgb(37, 52, 50);
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: -22px;
 }
 
-/* Selector de Clase */
 .colorAzul {
     color: #940e5a;
 }
 
-/* Selector de Tipo */
 #especial {
     color: palevioletred;
     font-size: 40px;
 }
 
 body {
-    background-color: rgb(153, 179, 194);
+    background-color: rgb(127, 163, 151);
+}
+
+#Imagen1 {
+    width: 620px;
+    height: 400px;
+    margin-left: 400px;
+    border-radius: 25px;
 }
