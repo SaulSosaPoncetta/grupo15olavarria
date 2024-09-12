@@ -1,0 +1,35 @@
+/* Selector de Tipo */
+p {
+    color: #ece8eb;
+    font-size: 20px;
+}
+
+h1 {
+    color : rgb(85, 124, 180);
+    font-size: 40px
+}
+
+h2 {
+    color: rgb(97, 116, 213);
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(65, 115, 190);
+    font-size: 20px;
+}
+
+/* Selector de Clase */
+.colorAzul {
+    color: #940e5a;
+}
+
+/* Selector de Tipo */
+#especial {
+    color: palevioletred;
+    font-size: 40px;
+}
+
+body {
+    background-color: rgb(153, 179, 194);
+}
